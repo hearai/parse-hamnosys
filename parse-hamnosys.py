@@ -146,3 +146,29 @@ for i in range(len(UnknownSymbols1Dict)):
         for key, value in UnknownSymbols1Dict.items():
             if char == value:
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Handshape base form occurs always after the symmetry operator
+if args.logging:
+    print("Dominant - Handshape - Baseform:")
+
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    for key, value in HandshapeBaseformsDict.items():
+        if char == value:
+            data.at[index, "Dominant - Handshape - Baseform"] = key
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+            continue
+    if data.at[index, "Dominant - Handshape - Baseform"] == 99:
+        data.at[index, "ERROR"] = 1
+
+if args.logging:
+    for index, row in data.iterrows():
+        print(
+            str(index)
+            + ": "
+            + data.at[index, "Hamnosys"]
+            + " -> "
+            + data.at[index, "Hamnosys_copy"]
+            + " = "
+            + str(data.at[index, "Dominant - Handshape - Baseform"])
+        )
