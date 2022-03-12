@@ -261,3 +261,41 @@ for index, row in data.iterrows():
         for key, value in HandshapeBendingDict.items():
             if char == value:
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Analyze second description of a dominant hand.
+# For example in notation 
+# Dominant hand is described as in beetween 
+# In this case  goes to the first description field and  goes to the second one.
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if char == "":
+        data.at[index, "Dominant - Handshape - Baseform2"] = 99
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in HandshapeBaseformsDict.items():
+            if char == value:
+                data.at[index, "Dominant - Handshape - Baseform2"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in HandshapeThumbPositionDict.items():
+            if char == value:
+                data.at[index, "Dominant - Handshape - Thumb position2"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in HandshapeBendingDict.items():
+            if char == value:
+                data.at[index, "Dominant - Handshape - bending2"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        # for some entries thumb is placed after the bending sign, so let's go back to thumb
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in HandshapeThumbPositionDict.items():
+            if char == value:
+                data.at[index, "Dominant - Handshape - Thumb position2"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        # if base form was not found after "" announce an error
+        if data.at[index, "Dominant - Handshape - Baseform2"] == 99:
+            data.at[index, "ERROR"] = 2
+        char = row["Hamnosys_copy"][0:1]
+        # Remove closing bracket if there
+        if char == "":
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
