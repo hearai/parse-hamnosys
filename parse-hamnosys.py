@@ -428,3 +428,39 @@ for index, row in data.iterrows():
     char = row["Hamnosys_copy"][0:1]
     if char == "" or char == "" or char == "":
         data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+if args.logging:
+    print("Dominant - Handposition - Palm Orientation:")
+
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    for key, value in HandpositionPalmOrientationDict.items():
+        if char == value:
+            data.at[index, "Dominant - Handposition - extended finger direction"] = key
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# take care of two in a row with "" sign (two for dominant)
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if char == "":
+        data.at[index, "NONDominant - Handposition - palm orientation"] = 99
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        char = row["Hamnosys_copy"][0:1]
+    for key, value in HandpositionPalmOrientationDict.items():
+        if char == value:
+            data.at[index, "NONDominant - Handposition - palm orientation"] = key
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+    if data.at[index, "NONDominant - Handposition - palm orientation"] == 99:
+        data.at[index, "ERROR"] = 7
+
+if args.logging:
+    for index, row in data.iterrows():
+        print(
+            str(index)
+            + ": "
+            + data.at[index, "Hamnosys"]
+            + " -> "
+            + data.at[index, "Hamnosys_copy"]
+            + " = "
+            + str(data.at[index, "Dominant - Handposition - extended finger direction"])
+        )
