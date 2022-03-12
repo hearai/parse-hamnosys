@@ -249,3 +249,15 @@ if args.logging:
             + " = "
             + str(data.at[index, "Dominant - Handshape - Thumb position"])
         )
+
+# Remove signs that may appear in this place
+# In most cases those are fingers with separate bending signs
+for index, row in data.iterrows():
+    for i in range(len(UnknownSymbols1Dict)):
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in UnknownSymbols2Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        for key, value in HandshapeBendingDict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
