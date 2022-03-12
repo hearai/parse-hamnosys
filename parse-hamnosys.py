@@ -379,7 +379,7 @@ for index, row in data.iterrows():
             data.at[index, "Dominant - Handposition - extended finger direction2"] = key
             data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
 
-# take care of two in a row with "" sign
+# take care of two in a row with "" sign (two for dominant)
 for index, row in data.iterrows():
     char = row["Hamnosys_copy"][0:1]
     if char == "":
@@ -422,3 +422,9 @@ if args.logging:
             + " = "
             + str(data.at[index, "Dominant - Handposition - extended finger direction"])
         )
+
+# Remove unnecesairy bracket or some strange dots
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if char == "" or char == "" or char == "":
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
