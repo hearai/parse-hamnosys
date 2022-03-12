@@ -465,3 +465,14 @@ if args.logging:
             + " = "
             + str(data.at[index, "Dominant - Handposition - extended finger direction"])
         )
+
+# Remove unknown signs
+for i in range(5):
+    for index, row in data.iterrows():
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in UnknownSymbols3Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        for key, value in UnknownSymbols4Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
