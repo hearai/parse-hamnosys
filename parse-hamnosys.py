@@ -336,3 +336,25 @@ for index, row in data.iterrows():
         # Remove closing bracket if there
         if char == "":
             data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Removing "" to be able to analyze examples like the one below
+# 
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if char == "":
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Remove signs that may appear in beetwen
+# In most cases those are fingers with separate bending signs
+for index, row in data.iterrows():
+    for i in range(len(UnknownSymbols1Dict)):
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in UnknownSymbols1Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        for key, value in UnknownSymbols2Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        for key, value in HandshapeBendingDict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
