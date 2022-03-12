@@ -70,3 +70,79 @@ data.insert(38, "NONDominant - Handposition - LR2", 0)
 data.insert(39, "NONDominant - Handposition - TB2", 0)
 data.insert(40, "NONDominant - Handposition - Distance2", 0)
 data.insert(41, "ERROR", 0)
+
+if args.logging:
+    print("Symetry operator:")
+
+for index, row in data.iterrows():
+    # Search for symmetry operators that consists of 3 symbols, remove if found
+    char = row["Hamnosys_copy"][0:3]
+    if (char == SymmetryOperatorsDict["1"]) or (char == SymmetryOperatorsDict["10"]):
+        data.at[index, "Symmetry operator"] = 1
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][3:]
+        continue
+    elif (char == SymmetryOperatorsDict["2"]) or (char == SymmetryOperatorsDict["11"]):
+        data.at[index, "Symmetry operator"] = 2
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][3:]
+        continue
+
+    # Search for symmetry operators that consists of 2 symbols, remove if found
+    char = row["Hamnosys_copy"][0:2]
+    if char == SymmetryOperatorsDict["3"]:
+        data.at[index, "Symmetry operator"] = 3
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][2:]
+        continue
+    elif char == SymmetryOperatorsDict["4"]:
+        data.at[index, "Symmetry operator"] = 4
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][2:]
+        continue
+    elif char == SymmetryOperatorsDict["5"]:
+        data.at[index, "Symmetry operator"] = 5
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][2:]
+        continue
+    elif char == SymmetryOperatorsDict["6"]:
+        data.at[index, "Symmetry operator"] = 6
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][2:]
+        continue
+
+    # Search for symmetry operators that consists of 1 symbol, remove if found
+    char = row["Hamnosys_copy"][0:1]
+    if char == SymmetryOperatorsDict["7"]:
+        data.at[index, "Symmetry operator"] = 7
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        continue
+    elif char == SymmetryOperatorsDict["8"]:
+        data.at[index, "Symmetry operator"] = 8
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        continue
+    # Check if non dominan hand is analyzed as only and set flag to 1 if this is true
+    elif char == "":
+        data.at[index, "Symmetry operator"] = 0
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        data.at[index, "NonDom first"] = 1
+        continue
+
+    # If no symmetry operators were found mark class as 0
+    else:
+        data.at[index, "Symmetry operator"] = 0
+
+# Log analysis result if logging is enabled
+if args.logging:
+    for index, row in data.iterrows():
+        print(
+            str(index)
+            + ": "
+            + data.at[index, "Hamnosys"]
+            + " -> "
+            + data.at[index, "Hamnosys_copy"]
+            + " = "
+            + str(data.at[index, "Symmetry operator"])
+        )
+
+# Remove unknown signs - do it many times as you never know the order;
+for i in range(len(UnknownSymbols1Dict)):
+    for index, row in data.iterrows():
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in UnknownSymbols1Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
