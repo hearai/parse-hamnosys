@@ -194,3 +194,34 @@ if args.logging:
             + " = "
             + str(data.at[index, "Dominant - Handshape - Thumb position"])
         )
+
+if args.logging:
+    print("Dominant - Handshape - Bending")
+
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    for key, value in HandshapeBendingDict.items():
+        if char == value:
+            data.at[index, "Dominant - Handshape - bending"] = key
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+            continue
+
+# This code removes duplicated bendings
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    for key, value in HandshapeBendingDict.items():
+        if char == value:
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+            continue
+
+if args.logging:
+    for index, row in data.iterrows():
+        print(
+            str(index)
+            + ": "
+            + data.at[index, "Hamnosys"]
+            + " -> "
+            + data.at[index, "Hamnosys_copy"]
+            + " = "
+            + str(data.at[index, "Dominant - Handshape - Bending"])
+        )
