@@ -551,3 +551,35 @@ for index, row in data.iterrows():
             break
         if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 3:
             break
+
+# Save resultant file
+f = open(args.dstfilename, "w")
+
+for index, row in data.iterrows():
+    f.write(
+        data.at[index, "Name"]
+        + " "
+        + data.at[index, "Start"]
+        + " "
+        + data.at[index, "End"]
+        + " "
+        + data.at[index, "Symmetry operator"]
+        + " "
+        + data.at[index, "Dominant - Handshape - Baseform"]
+        + " "
+        + data.at[index, "Dominant - Handshape - Thumb position"]
+        + " "
+        + data.at[index, "Dominant - Handshape - bending"]
+        + " "
+        + data.at[index, "Dominant - Handposition - extended finger direction"]
+        + " "
+        + data.at[index, "Dominant - Handposition - palm orientation"]
+        + " "
+        + data.at[index, "Dominant - Handposition - LR"]
+        + " "
+        + data.at[index, "Dominant - Handposition - TB"]
+        + " "
+        + data.at[index, "Dominant - Handposition - Distance"]
+    )
+    f.write("\n")
+f.close()
