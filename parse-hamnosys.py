@@ -172,3 +172,26 @@ if args.logging:
             + " = "
             + str(data.at[index, "Dominant - Handshape - Baseform"])
         )
+
+if args.logging:
+    print("Dominant - Handshape - Thumb position:")
+
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    for key, value in HandshapeThumbPositionDict.items():
+        if char == value:
+            data.at[index, "Dominant - Handshape - Thumb position"] = key
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+            continue
+
+if args.logging:
+    for index, row in data.iterrows():
+        print(
+            str(index)
+            + ": "
+            + data.at[index, "Hamnosys"]
+            + " -> "
+            + data.at[index, "Hamnosys_copy"]
+            + " = "
+            + str(data.at[index, "Dominant - Handshape - Thumb position"])
+        )
