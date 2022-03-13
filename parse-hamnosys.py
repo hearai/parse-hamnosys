@@ -475,3 +475,13 @@ for i in range(5):
         for key, value in UnknownSymbols4Dict.items():
             if char == value:
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Check if handposition letf/right symbol is placed here
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if char == "":
+        data.at[index, "Dominant - Handposition - LR"] = 0
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+    elif char == "":
+        data.at[index, "Dominant - Handposition - LR"] = 1
+        data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
