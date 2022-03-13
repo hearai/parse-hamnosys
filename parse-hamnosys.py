@@ -521,3 +521,34 @@ for index, row in data.iterrows():
             break
         if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
             break
+
+for index, row in data.iterrows():
+    char = row["Hamnosys_copy"][0:1]
+    if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
+        if char == "":
+            data.at[index, "Dominant - Handposition - LR"] = "3"
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        if char == "":
+            data.at[index, "Dominant - Handposition - LR"] = "4"
+            data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# check 4 next signs searching for distance
+for index, row in data.iterrows():
+    for i in range(4):
+        char = row["Hamnosys_copy"][i : i + 1]
+        for key, value in HandLocationDistanceDict.items():
+            if char == value:
+                data.at[index, "Dominant - Handposition - Distance"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+                break
+        if pd.to_numeric(data.at[index, "Dominant - Handposition - Distance"]) != 3:
+            break
+        for key, value in MovementSigns.items():
+            if char == value:
+                data.at[index, "Dominant - Handposition - Distance"] = 3
+                break
+        if char == "":
+            data.at[index, "Dominant - Handposition - Distance"] = 3
+            break
+        if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 3:
+            break
