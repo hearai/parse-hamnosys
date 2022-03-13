@@ -496,3 +496,27 @@ for i in range(10):
         for key, value in HandshapeBendingDict.items():
             if char == value:
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+if args.logging:
+    print("Hand location - fronal plane t/b")
+
+# check 4 next signs searching for Handlocation Frontal Plane Top/bottom
+for index, row in data.iterrows():
+    for i in range(4):
+        char = row["Hamnosys_copy"][i : i + 1]
+        for key, value in HandLocationFronalPlaneTB.items():
+            if char == value:
+                data.at[index, "Dominant - Handposition - TB"] = key
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+                break
+        if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
+            break
+        for key, value in MovementSigns.items():
+            if char == value:
+                data.at[index, "Dominant - Handposition - TB"] = 0
+                break
+        if char == "":
+            data.at[index, "Dominant - Handposition - TB"] = 0
+            break
+        if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
+            break
