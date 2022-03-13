@@ -476,7 +476,7 @@ for i in range(5):
             if char == value:
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
 
-# Check if handposition letf/right symbol is placed here
+# Check if handposition left symbol is placed here
 for index, row in data.iterrows():
     char = row["Hamnosys_copy"][0:1]
     if char == "":
@@ -485,3 +485,14 @@ for index, row in data.iterrows():
     elif char == "":
         data.at[index, "Dominant - Handposition - LR"] = 1
         data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+
+# Removing some signs.."
+for i in range(10):
+    for index, row in data.iterrows():
+        char = row["Hamnosys_copy"][0:1]
+        for key, value in UnknownSymbols3Dict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
+        for key, value in HandshapeBendingDict.items():
+            if char == value:
+                data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
