@@ -1,4 +1,5 @@
 from argparse import ArgumentParser
+from hamnosys_dicts import *
 import pandas as pd
 
 # Parse arguments
