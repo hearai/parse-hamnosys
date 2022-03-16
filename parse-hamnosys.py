@@ -393,23 +393,23 @@ for index, row in data.iterrows():
         if char == value:
             data.at[index, "Dominant - Handposition - extended finger direction2"] = key
             data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
-    if data.at[index, "Dominant - Handposition - extended finger direction2"] == 99:
+    if data.at[index, "Dominant - Handposition - Extended finger direction2"] == 99:
         data.at[index, "ERROR"] = 6
 
 # take care of nondominant hand
 for index, row in data.iterrows():
     char = row["Hamnosys_copy"][0:1]
     if char == "":
-        data.at[index, "NONominant - Handposition - extended finger direction"] = 99
+        data.at[index, "NONDominant - Handposition - extended finger direction"] = 99
         data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
     char = row["Hamnosys_copy"][0:1]
     for key, value in HandpositionFingerDirectionDict.items():
         if char == value:
             data.at[
-                index, "NONominant - Handposition - extended finger direction"
+                index, "NONDominant - Handposition - extended finger direction"
             ] = key
             data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
-    if data.at[index, "NONominant - Handposition - extended finger direction"] == 99:
+    if data.at[index, "NONDominant - Handposition - Extended finger direction"] == 99:
         data.at[index, "ERROR"] = 7
 
 if args.logging:
@@ -451,7 +451,7 @@ for index, row in data.iterrows():
         if char == value:
             data.at[index, "NONDominant - Handposition - palm orientation"] = key
             data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
-    if data.at[index, "NONDominant - Handposition - palm orientation"] == 99:
+    if data.at[index, "NONDominant - Handposition - Palm orientation"] == 99:
         data.at[index, "ERROR"] = 7
 
 if args.logging:
@@ -558,29 +558,29 @@ f = open(args.dstfilename, "w")
 
 for index, row in data.iterrows():
     f.write(
-        data.at[index, "Name"]
+        str(data.at[index, "Name"])
         + " "
-        + data.at[index, "Start"]
+        + str(data.at[index, "Start"])
         + " "
-        + data.at[index, "End"]
+        + str(data.at[index, "End"])
         + " "
-        + data.at[index, "Symmetry operator"]
+        + str(data.at[index, "Symmetry operator"])
         + " "
-        + data.at[index, "Dominant - Handshape - Baseform"]
+        + str(data.at[index, "Dominant - Handshape - Baseform"])
         + " "
-        + data.at[index, "Dominant - Handshape - Thumb position"]
+        + str(data.at[index, "Dominant - Handshape - Thumb position"])
         + " "
-        + data.at[index, "Dominant - Handshape - bending"]
+        + str(data.at[index, "Dominant - Handshape - bending"])
         + " "
-        + data.at[index, "Dominant - Handposition - extended finger direction"]
+        + str(data.at[index, "Dominant - Handposition - extended finger direction"])
         + " "
-        + data.at[index, "Dominant - Handposition - palm orientation"]
+        + str(data.at[index, "Dominant - Handposition - Palm orientation"])
         + " "
-        + data.at[index, "Dominant - Handposition - LR"]
+        + str(data.at[index, "Dominant - Handposition - LR"])
         + " "
-        + data.at[index, "Dominant - Handposition - TB"]
+        + str(data.at[index, "Dominant - Handposition - TB"])
         + " "
-        + data.at[index, "Dominant - Handposition - Distance"]
+        + str(data.at[index, "Dominant - Handposition - Distance"])
     )
     f.write("\n")
 f.close()
