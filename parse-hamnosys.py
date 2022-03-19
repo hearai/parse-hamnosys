@@ -50,6 +50,7 @@ def get_args_parser():
     )
     return parser
 
+
 def main(args):
     # Read file and create a structure to store results,
     # load data from source file and name columns
@@ -61,49 +62,58 @@ def main(args):
     data.insert(6, "Hamnosys_copy", data["Hamnosys"], True)
     # Prepare a column for Flag that will be set if non dominant hand is
     # analyzed as only. Fill it with 0s (not set).
-    data.insert(7, "NonDom first", 0)
-    # Prepare a column for symmetry operator
-    data.insert(8, "Symmetry operator", 0)
-    # Prepare columns for all analyzed features
-    data.insert(9, "Dominant - Handshape - Baseform", 99)
-    data.insert(10, "Dominant - Handshape - Thumb position", 0)
-    data.insert(11, "Dominant - Handshape - Bending", 0)
-    data.insert(12, "Dominant - Handposition - Extended finger direction", 99)
-    data.insert(13, "Dominant - Handposition - Palm orientation", 99)
-    data.insert(14, "Dominant - Handposition - LR", 2)
-    data.insert(15, "Dominant - Handposition - TB", 14)
-    data.insert(16, "Dominant - Handposition - Distance", 3)
-    data.insert(17, "Dominant - Handshape - Baseform2", 0)
-    data.insert(18, "Dominant - Handshape - Thumb position2", 0)
-    data.insert(19, "Dominant - Handshape - Bending2", 0)
-    data.insert(20, "Dominant - Handposition - Extended finger direction2", 0)
-    data.insert(21, "Dominant - Handposition - Palm orientation2", 0)
-    data.insert(22, "Dominant - Handposition - LR2", 0)
-    data.insert(23, "Dominant - Handposition - TB2", 0)
-    data.insert(24, "Dominant - Handposition - Distance2", 0)
-    data.insert(25, "NONDominant - Handshape - Baseform", 0)
-    data.insert(26, "NONDominant - Handshape - Thumb position", 0)
-    data.insert(27, "NONDominant - Handshape - Bending", 0)
-    data.insert(28, "NONDominant - Handposition - Extended finger direction", 0)
-    data.insert(29, "NONDominant - Handposition - Palm orientation", 0)
-    data.insert(30, "NONDominant - Handposition - LR", 0)
-    data.insert(31, "NONDominant - Handposition - TB", 0)
-    data.insert(32, "NONDominant - Handposition - Distance", 0)
-    data.insert(33, "NONDominant - Handshape - Baseform2", 0)
-    data.insert(34, "NONDominant - Handshape - Thumb position2", 0)
-    data.insert(35, "NONDominant - Handshape - Bending2", 0)
-    data.insert(36, "NONDominant - Handposition - Extended finger direction2", 0)
-    data.insert(37, "NONDominant - Handposition - Palm orientation2", 0)
-    data.insert(38, "NONDominant - Handposition - LR2", 0)
-    data.insert(39, "NONDominant - Handposition - TB2", 0)
-    data.insert(40, "NONDominant - Handposition - Distance2", 0)
-    data.insert(41, "ERROR", 0)
+    # Prepare a column for symmetry operator and all analyzed features
+    data = data.reindex(columns=[
+        *data.columns,
+        "NonDom first",
+        "Symmetry operator",
+        "Dominant - Handshape - Baseform",
+        "Dominant - Handshape - Bending",
+        "Dominant - Handposition - Extended finger direction",
+        "Dominant - Handposition - Palm orientation",
+        "Dominant - Handposition - LR",
+        "Dominant - Handposition - TB",
+        "Dominant - Handposition - Distance",
+        "Dominant - Handshape - Baseform2",
+        "Dominant - Handshape - Thumb position2",
+        "Dominant - Handshape - Bending2",
+        "Dominant - Handposition - Extended finger direction2",
+        "Dominant - Handposition - Palm orientation2",
+        "Dominant - Handposition - LR2",
+        "Dominant - Handposition - TB2",
+        "Dominant - Handposition - Distance2",
+        "NONDominant - Handshape - Baseform",
+        "NONDominant - Handshape - Thumb position",
+        "NONDominant - Handshape - Bending",
+        "NONDominant - Handposition - Extended finger direction",
+        "NONDominant - Handposition - Palm orientation",
+        "NONDominant - Handposition - LR",
+        "NONDominant - Handposition - TB",
+        "NONDominant - Handposition - Distance",
+        "NONDominant - Handshape - Baseform2",
+        "NONDominant - Handshape - Thumb position2",
+        "NONDominant - Handshape - Bending2",
+        "NONDominant - Handposition - Extended finger direction2",
+        "NONDominant - Handposition - Palm orientation2",
+        "NONDominant - Handposition - LR2",
+        "NONDominant - Handposition - TB2",
+        "NONDominant - Handposition - Distance2",
+        "ERROR"],
+        fill_value=0)
+    # change some default values for chosen columns
+    data["Dominant - Handshape - Baseform"] = 99
+    data["Dominant - Handposition - Extended finger direction"] = 99
+    data["Dominant - Handposition - Palm orientation"] = 99
+    data["Dominant - Handposition - LR"] = 2
+    data["Dominant - Handposition - TB"] = 14
+    data["Dominant - Handposition - Distance"] = 3
 
     if args.logging:
         print("Symetry operator:")
 
     for index, row in data.iterrows():
-        # Search for symmetry operators that consists of 3 symbols, remove if found
+        # Search for symmetry operators that consists of 3 symbols,
+        # remove if found
         char = row["Hamnosys_copy"][0:3]
         if ((char == SymmetryOperatorsDict["1"]) or
                 (char == SymmetryOperatorsDict["10"])):
@@ -402,10 +412,10 @@ def main(args):
         for key, value in HandpositionFingerDirectionDict.items():
             if char == value:
                 data.at[index, "Dominant - Handposition - "
-                            "extended finger direction"] = key
+                               "extended finger direction"] = key
                 data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
         if data.at[index, "Dominant - Handposition - "
-                        "extended finger direction"] == 99:
+                          "extended finger direction"] == 99:
             data.at[index, "ERROR"] = 4
 
     # If there are two in a row
@@ -556,7 +566,8 @@ def main(args):
                     data.at[index, "Dominant - Handposition - TB"] = key
                     data.at[index, "Hamnosys_copy"] = row["Hamnosys_copy"][1:]
                     break
-            if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
+            if pd.to_numeric(data.at[
+                index, "Dominant - Handposition - TB"]) != 99:
                 break
             for key, value in MovementSigns.items():
                 if char == value:
@@ -565,7 +576,8 @@ def main(args):
             if char == "":
                 data.at[index, "Dominant - Handposition - TB"] = 0
                 break
-            if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 99:
+            if pd.to_numeric(
+                data.at[index, "Dominant - Handposition - TB"]) != 99:
                 break
 
     for index, row in data.iterrows():
@@ -597,7 +609,8 @@ def main(args):
             if char == "":
                 data.at[index, "Dominant - Handposition - Distance"] = 3
                 break
-            if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 3:
+            if pd.to_numeric(
+                data.at[index, "Dominant - Handposition - TB"]) != 3:
                 break
 
     # Save resultant file
