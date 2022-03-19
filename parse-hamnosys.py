@@ -509,7 +509,7 @@ def main(args):
         for key, value in HandpositionPalmOrientationDict.items():
             if char == value:
                 data.at[index, "Dominant - Handposition - "
-                            "extended finger direction"] = key
+                            "Palm Orientation"] = key
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
     # take care of two in a row with "" sign (two for dominant)
