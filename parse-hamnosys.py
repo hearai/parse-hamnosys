@@ -36,7 +36,8 @@ def get_args_parser():
         "--log",
         dest="logging",
         metavar="log",
-        type=bool,
+        action="store_true",
+        default=False,
         help="Enable logging"
     )
     parser.add_argument(
