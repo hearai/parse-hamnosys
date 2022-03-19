@@ -14,9 +14,9 @@ DescriptionDict = {
 }
 
 HandlocationFronalPlaneRL = {
-    "0": "",  # left to the left
-    "1": "",  # left
-    # "2" : "", #center
+    # "0" : "", #center
+    "1": "",  # left to the left
+    "2": "",  # left
     "3": "",  # right
     "4": "",  # right to the right
 }
@@ -125,10 +125,10 @@ HandshapeThumbPositionDict = {
 }
 
 HandLocationDistanceDict = {
-    "0": "",
-    "1": "",
-    "2": "",
-    #   "3" : None
+    #   "0" : None
+    "1": "",
+    "2": "",
+    "3": "",
     "4": "",
     "5": "",
     "6": "",

@@ -122,9 +122,9 @@ def main(args):
     data["Dominant - Handshape - Baseform"] = 99
     data["Dominant - Handposition - Extended finger direction"] = 99
     data["Dominant - Handposition - Palm orientation"] = 99
-    data["Dominant - Handposition - LR"] = 2
+    #data["Dominant - Handposition - LR"] = 2
     data["Dominant - Handposition - TB"] = 14
-    data["Dominant - Handposition - Distance"] = 3
+    #data["Dominant - Handposition - Distance"] = 3
 
     if args.logging:
         print("Symetry operator:")
@@ -554,10 +554,10 @@ def main(args):
     for index, row in data.iterrows():
         char = Hamnosys_copy[index][0]
         if char == "":
-            data.at[index, "Dominant - Handposition - LR"] = 0
+            data.at[index, "Dominant - Handposition - LR"] = 1
             Hamnosys_copy[index] = Hamnosys_copy[index][1:]
         elif char == "":
-            data.at[index, "Dominant - Handposition - LR"] = 1
+            data.at[index, "Dominant - Handposition - LR"] = 2
             Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
     # Removing some signs.."
@@ -619,10 +619,10 @@ def main(args):
                 break
             for key, value in MovementSigns.items():
                 if char == value:
-                    data.at[index, "Dominant - Handposition - Distance"] = 3
+                    data.at[index, "Dominant - Handposition - Distance"] = 0
                     break
             if char == "":
-                data.at[index, "Dominant - Handposition - Distance"] = 3
+                data.at[index, "Dominant - Handposition - Distance"] = 0
                 break
             if pd.to_numeric(data.at[index, "Dominant - Handposition - TB"]) != 3:
                 break
