@@ -38,13 +38,23 @@ def get_args_parser():
         type=bool,
         help="Enable logging"
     )
+    parser.add_argument(
+        "-c",
+        "--column",
+        dest="columnnames",
+        metavar="col",
+        nargs='+',
+        type=str,
+        default=["Name", "Start", "End", "Dict", "Word", "Hamnosys"],
+        help="Input column names"
+    )
     return parser
 
 def main(args):
     # Read file and create a structure to store results,
     # load data from source file and name columns
     data = pd.read_csv(args.srcfilename, sep=" ", header=None)
-    data.columns = ["Name", "Start", "End", "Dict", "Word", "Hamnosys"]
+    data.columns = args.columnnames
 
     # Duplicate column named Hamnosys to have a copy to work on
     # and name it "Hamnosys_copy"
@@ -591,37 +601,17 @@ def main(args):
                 break
 
     # Save resultant file
-    f = open(args.dstfilename, "w")
+    df = data[["Name", "Start", "End", "Symmetry operator",
+               "Dominant - Handshape - Baseform",
+               "Dominant - Handshape - Thumb position",
+               "Dominant - Handshape - Bending",
+               "Dominant - Handposition - extended finger direction",
+               "Dominant - Handposition - Palm orientation",
+               "Dominant - Handposition - LR",
+               "Dominant - Handposition - TB",
+               "Dominant - Handposition - Distance"]]
 
-    for index, row in data.iterrows():
-        f.write(
-            str(data.at[index, "Name"])
-            + " "
-            + str(data.at[index, "Start"])
-            + " "
-            + str(data.at[index, "End"])
-            + " "
-            + str(data.at[index, "Symmetry operator"])
-            + " "
-            + str(data.at[index, "Dominant - Handshape - Baseform"])
-            + " "
-            + str(data.at[index, "Dominant - Handshape - Thumb position"])
-            + " "
-            + str(data.at[index, "Dominant - Handshape - Bending"])
-            + " "
-            + str(data.at[index, "Dominant - Handposition - "
-                                "extended finger direction"])
-            + " "
-            + str(data.at[index, "Dominant - Handposition - Palm orientation"])
-            + " "
-            + str(data.at[index, "Dominant - Handposition - LR"])
-            + " "
-            + str(data.at[index, "Dominant - Handposition - TB"])
-            + " "
-            + str(data.at[index, "Dominant - Handposition - Distance"])
-        )
-        f.write("\n")
-    f.close()
+    df.to_csv(args.dstfilename, sep=" ", header=True)
 
 
 if __name__ == "__main__":
