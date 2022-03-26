@@ -125,7 +125,6 @@ HandshapeThumbPositionDict = {
 }
 
 HandLocationDistanceDict = {
-    #   "0" : None
     "1": "",
     "2": "",
     "3": "",
@@ -230,9 +229,4 @@ UnknownSymbols3Dict = {
     "5": "",
     "6": "",
     "7": "",
-}
-
-UnknownSymbols4Dict = {
-    "1": "",
-    "2": "",
 }
