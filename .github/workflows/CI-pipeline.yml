@@ -21,7 +21,29 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
+      # Prepare an environment
+      - name: Environment setup
+        run: |
+          make venv
+
+      # Compare the test and the result files
       - name: Comparison
         run: |
-          echo "Trial"
+          source .venv/bin/activate
+          python3 parse-hamnosys.py -sf hamnosys_example.txt -df hamnosys_parsed.txt
+          echo "Compare test and result files"
+          python3 test/test_result_files.py
+
+          # Check if diff.txt file exists
+          FILE=test/diff.txt
+          if test -f "$FILE"; then
+              echo "Differences in test and result files"
+              exit 1
+          else
+              echo "Test and result files are the same"
+              exit 0
+          fi
+
+      - name: Clean
+        run: |
+          make venv-clean

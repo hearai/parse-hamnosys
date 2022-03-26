@@ -2,9 +2,9 @@ import difflib
 import sys
 import os
 
-test_file = "test_result.txt"
-result_file = "../parsed_hamnosys.txt"
-diff_file = "diff.txt"
+test_file = "test/test.txt"
+result_file = "hamnosys_parsed.txt"
+diff_file = "test/diff.txt"
 
 def compare_files():
     diffs = []
