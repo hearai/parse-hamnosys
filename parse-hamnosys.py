@@ -157,13 +157,11 @@ def main(args):
         # Search for symmetry operators that consists of 3 symbols,
         # remove if found
         char = Hamnosys_copy[index][0:3]
-        if ((char == SymmetryOperatorsDict["1"]) or
-                (char == SymmetryOperatorsDict["9"])):
+        if set(char) == set(SymmetryOperatorsDict["1"]):
             data.at[index, "Symmetry operator"] = 1
             Hamnosys_copy[index] = Hamnosys_copy[index][3:]
             continue
-        elif ((char == SymmetryOperatorsDict["2"]) or
-              (char == SymmetryOperatorsDict["10"])):
+        elif set(char) == set(SymmetryOperatorsDict["2"]):
             data.at[index, "Symmetry operator"] = 2
             Hamnosys_copy[index] = Hamnosys_copy[index][3:]
             continue
