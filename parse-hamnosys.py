@@ -154,22 +154,14 @@ def main(args):
     data["Dominant - Handshape - Bending"] = 0
 
     for index, _ in data.iterrows():
-        # Search for symmetry operators that consists of 3 symbols,
+        # Search for symmetry operators that consists of 3 or 2 symbols,
         # remove if found
-        char = Hamnosys_copy[index][0:3]
-        for i in range(1, 3):
+        for i in range(1, 7):
+            j = 3 if i < 3 else 2
+            char = Hamnosys_copy[index][0:j]
             if set(char) == set(SymmetryOperatorsDict[str(i)]):
                 data.at[index, "Symmetry operator"] = i
-                Hamnosys_copy[index] = Hamnosys_copy[index][3:]
-                continue
-
-        # Search for symmetry operators that consists of 2 symbols,
-        # remove if found
-        char = Hamnosys_copy[index][0:2]
-        for i in range(3, 7):
-            if char == SymmetryOperatorsDict[str(i)]:
-                data.at[index, "Symmetry operator"] = i
-                Hamnosys_copy[index] = Hamnosys_copy[index][2:]
+                Hamnosys_copy[index] = Hamnosys_copy[index][j:]
                 continue
 
         # Search for symmetry operators that consists of 1 symbol,
@@ -181,17 +173,15 @@ def main(args):
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                 continue
 
-    # Remove bracket and vave shape (that describes the movement)
-    for i in range(len(UnknownSymbols1Dict)):
-        for index, row in data.iterrows():
+        # Remove bracket and vave shape (that describes the movement)
+        for i in range(len(UnknownSymbols1Dict)):
             char = Hamnosys_copy[index][0]
             for key, value in UnknownSymbols1Dict.items():
                 if char == value:
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
-    # Dominan hand base for is expected here,
-    # so we iter trough all possible options
-    for index, row in data.iterrows():
+        # Dominan hand base for is expected here,
+        # so we iter trough all possible options
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeBaseformsDict.items():
             if char == value:
