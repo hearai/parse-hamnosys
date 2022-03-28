@@ -157,56 +157,33 @@ def main(args):
         # Search for symmetry operators that consists of 3 symbols,
         # remove if found
         char = Hamnosys_copy[index][0:3]
-        if set(char) == set(SymmetryOperatorsDict["1"]):
-            data.at[index, "Symmetry operator"] = 1
-            Hamnosys_copy[index] = Hamnosys_copy[index][3:]
-            continue
-        elif set(char) == set(SymmetryOperatorsDict["2"]):
-            data.at[index, "Symmetry operator"] = 2
-            Hamnosys_copy[index] = Hamnosys_copy[index][3:]
-            continue
+        for i in range(1, 3):
+            if set(char) == set(SymmetryOperatorsDict[str(i)]):
+                data.at[index, "Symmetry operator"] = i
+                Hamnosys_copy[index] = Hamnosys_copy[index][3:]
+                continue
 
         # Search for symmetry operators that consists of 2 symbols,
         # remove if found
         char = Hamnosys_copy[index][0:2]
-        if char == SymmetryOperatorsDict["3"]:
-            data.at[index, "Symmetry operator"] = 3
-            Hamnosys_copy[index] = Hamnosys_copy[index][2:]
-            continue
-        elif char == SymmetryOperatorsDict["4"]:
-            data.at[index, "Symmetry operator"] = 4
-            Hamnosys_copy[index] = Hamnosys_copy[index][2:]
-            continue
-        elif char == SymmetryOperatorsDict["5"]:
-            data.at[index, "Symmetry operator"] = 5
-            Hamnosys_copy[index] = Hamnosys_copy[index][2:]
-            continue
-        elif char == SymmetryOperatorsDict["6"]:
-            data.at[index, "Symmetry operator"] = 6
-            Hamnosys_copy[index] = Hamnosys_copy[index][2:]
-            continue
+        for i in range(3, 7):
+            if char == SymmetryOperatorsDict[str(i)]:
+                data.at[index, "Symmetry operator"] = i
+                Hamnosys_copy[index] = Hamnosys_copy[index][2:]
+                continue
 
         # Search for symmetry operators that consists of 1 symbol,
         # remove if found
         char = Hamnosys_copy[index][0]
-        if char == SymmetryOperatorsDict["7"]:
-            data.at[index, "Symmetry operator"] = 7
-            Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            continue
-        elif char == SymmetryOperatorsDict["8"]:
-            data.at[index, "Symmetry operator"] = 8
-            Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            continue
-        # Check if non dominan hand is analyzed as only and set flag
-        elif char == SymmetryOperatorsDict["9"]:
-            data.at[index, "Symmetry operator"] = 0
-            Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            data.at[index, "NonDom first"] = 1
-            continue
+        for i in range(7, 10):
+            if char == SymmetryOperatorsDict[str(i)]:
+                data.at[index, "Symmetry operator"] = i % 9
+                Hamnosys_copy[index] = Hamnosys_copy[index][1:]
+                continue
 
     # Remove bracket and vave shape (that describes the movement)
     for i in range(len(UnknownSymbols1Dict)):
-        pa  for index, row in data.iterrows():
+        for index, row in data.iterrows():
             char = Hamnosys_copy[index][0]
             for key, value in UnknownSymbols1Dict.items():
                 if char == value:
