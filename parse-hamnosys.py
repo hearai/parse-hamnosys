@@ -153,7 +153,7 @@ def main(args):
     data["Dominant - Handshape - Thumb position"] = 0
     data["Dominant - Handshape - Bending"] = 0
 
-    for index, row in data.iterrows():
+    for index, _ in data.iterrows():
         # Search for symmetry operators that consists of 3 symbols,
         # remove if found
         char = Hamnosys_copy[index][0:3]
@@ -198,7 +198,7 @@ def main(args):
             Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             continue
         # Check if non dominan hand is analyzed as only and set flag
-        elif char == "":
+        elif char == SymmetryOperatorsDict["9"]:
             data.at[index, "Symmetry operator"] = 0
             Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             data.at[index, "NonDom first"] = 1
@@ -206,7 +206,7 @@ def main(args):
 
     # Remove bracket and vave shape (that describes the movement)
     for i in range(len(UnknownSymbols1Dict)):
-        for index, row in data.iterrows():
+        pa  for index, row in data.iterrows():
             char = Hamnosys_copy[index][0]
             for key, value in UnknownSymbols1Dict.items():
                 if char == value:

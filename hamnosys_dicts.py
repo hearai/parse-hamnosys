@@ -193,8 +193,7 @@ SymmetryOperatorsDict = {
     "6": "",
     "7": "",
     "8": "",
-    "9": "",
-    "10": "",
+    "9": "",
 }
 
 UnknownSymbols1Dict = {
