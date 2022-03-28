@@ -176,7 +176,7 @@ def main(args):
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeBaseformsDict.items():
             if char == value:
-                data.at[index, "Dominant - Handshape - Baseform"] = key
+                data.at[index, "Dominant - Handshape - Baseform"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                 continue
         # If base form was not found here, the logic is broken
@@ -189,7 +189,8 @@ def main(args):
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeThumbPositionDict.items():
             if char == value:
-                data.at[index, "Dominant - Handshape - Thumb position"] = key
+                data.at[index,
+                        "Dominant - Handshape - Thumb position"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                 continue
 
@@ -198,7 +199,7 @@ def main(args):
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeBendingDict.items():
             if char == value:
-                data.at[index, "Dominant - Handshape - Bending"] = key
+                data.at[index, "Dominant - Handshape - Bending"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                 continue
 
@@ -214,7 +215,8 @@ def main(args):
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeThumbPositionDict.items():
             if char == value:
-                data.at[index, "Dominant - Handshape - Thumb position"] = key
+                data.at[index,
+                    "Dominant - Handshape - Thumb position"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                 continue
 
@@ -240,7 +242,8 @@ def main(args):
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBaseformsDict.items():
                 if char == value:
-                    data.at[index, "Dominant - Handshape - Baseform2"] = key
+                    data.at[index,
+                        "Dominant - Handshape - Baseform2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "Dominant - Handshape - "
                                            "Baseform2"]):
@@ -252,12 +255,12 @@ def main(args):
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "Dominant - Handshape - "
-                                   "Thumb position2"] = key
+                                   "Thumb position2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBendingDict.items():
                 if char == value:
-                    data.at[index, "Dominant - Handshape - Bending2"] = key
+                    data.at[index, "Dominant - Handshape - Bending2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             # for some entries thumb is placed after the bending sign,
             # so let's go back to thumb
@@ -265,7 +268,7 @@ def main(args):
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "Dominant - Handshape - "
-                                   "Thumb position2"] = key
+                                   "Thumb position2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             # Remove closing bracket if there
             if char == "":
@@ -280,7 +283,8 @@ def main(args):
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBaseformsDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Baseform"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Baseform"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handshape - "
                                            "Baseform"]):
@@ -292,18 +296,19 @@ def main(args):
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position"] = key
+                                   "Thumb position"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBendingDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Bending"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Bending"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position"] = key
+                                   "Thumb position"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             if char == "":
@@ -320,7 +325,8 @@ def main(args):
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBaseformsDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Baseform2"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Baseform2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handshape - "
                                            "Baseform2"]):
@@ -332,18 +338,19 @@ def main(args):
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position2"] = key
+                                   "Thumb position2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBendingDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Bending2"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Bending2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position2"] = key
+                                   "Thumb position2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             if char == "":
@@ -367,7 +374,7 @@ def main(args):
         for key, value in HandpositionFingerDirectionDict.items():
             if char == value:
                 data.at[index, "Dominant - Handposition - "
-                               "Extended finger direction"] = key
+                               "Extended finger direction"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
         if equal_to_nan(data.at[index, "Dominant - Handposition - "
                                        "Extended finger direction"]):
@@ -379,7 +386,7 @@ def main(args):
         for key, value in HandpositionFingerDirectionDict.items():
             if char == value:
                 data.at[index, "Dominant - Handposition - "
-                               "Extended finger direction2"] = key
+                               "Extended finger direction2"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
         # Take care of two in a row with "" sign (two for dominant)
@@ -395,7 +402,7 @@ def main(args):
             for key, value in HandpositionFingerDirectionDict.items():
                 if char == value:
                     data.at[index, "Dominant - Handposition - "
-                                   "Extended finger direction2"] = key
+                                   "Extended finger direction2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "Dominant - Handposition - "
                                            "Extended finger direction2"]):
@@ -410,7 +417,7 @@ def main(args):
             for key, value in HandpositionFingerDirectionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handposition - "
-                                   "Extended finger direction"] = key
+                                   "Extended finger direction"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handposition - "
                                            "Extended finger direction"]):
@@ -422,7 +429,7 @@ def main(args):
         for key, value in HandpositionFingerDirectionDict.items():
             if char == value:
                 data.at[index, "NONDominant - Handposition - "
-                               "Extended finger direction2"] = key
+                               "Extended finger direction2"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
         # take care of two in a row with "" sign (two for dominant)
@@ -438,7 +445,7 @@ def main(args):
             for key, value in HandpositionFingerDirectionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handposition - "
-                                   "Extended finger direction2"] = key
+                                   "Extended finger direction2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handposition - "
                                            "Extended finger direction2"]):
@@ -454,7 +461,7 @@ def main(args):
         for key, value in HandpositionPalmOrientationDict.items():
             if char == value:
                 data.at[index, "Dominant - Handposition - "
-                               "Palm orientation"] = key
+                               "Palm orientation"] = int(key)
                 Hamnosys_copy[index] = Hamnosys_copy[index][1:]
         if equal_to_nan(data.at[index, "Dominant - Handposition - "
                                        "Palm orientation"]):
@@ -470,7 +477,7 @@ def main(args):
             for key, value in HandpositionPalmOrientationDict.items():
                 if char == value:
                     data.at[index, "Dominant - Handposition - "
-                                   "Palm orientation2"] = key
+                                   "Palm orientation2"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "Dominant - Handposition - "
                                            "Palm orientation2"]):
@@ -497,7 +504,8 @@ def main(args):
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBaseformsDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Baseform"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Baseform"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handshape - "
                                            "Baseform"]):
@@ -513,18 +521,19 @@ def main(args):
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position"] = key
+                                   "Thumb position"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeBendingDict.items():
                 if char == value:
-                    data.at[index, "NONDominant - Handshape - Bending"] = key
+                    data.at[index,
+                        "NONDominant - Handshape - Bending"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handshape - "
-                                   "Thumb position"] = key
+                                   "Thumb position"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             # Extended finger direction
@@ -536,7 +545,7 @@ def main(args):
             for key, value in HandpositionFingerDirectionDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handposition - "
-                                   "Extended finger direction"] = key
+                                   "Extended finger direction"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handposition - "
                                            "Extended finger direction"]):
@@ -553,7 +562,7 @@ def main(args):
             for key, value in HandpositionPalmOrientationDict.items():
                 if char == value:
                     data.at[index, "NONDominant - Handposition - "
-                                   "Palm orientation"] = key
+                                   "Palm orientation"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             if equal_to_nan(data.at[index, "NONDominant - Handposition - "
                                            "Palm orientation"]):
@@ -595,7 +604,7 @@ def main(args):
             char = Hamnosys_copy[index][i]
             for key, value in HandLocationFronalPlaneTB.items():
                 if char == value:
-                    data.at[index, "Dominant - Handposition - TB"] = key
+                    data.at[index, "Dominant - Handposition - TB"] = int(key)
                     if equal_to_nan(data.at[index, "Dominant - Handposition - "
                                                    "LR"]):
                         char = Hamnosys_copy[index][i-1]
@@ -649,7 +658,8 @@ def main(args):
             char = Hamnosys_copy[index][i]
             for key, value in HandLocationDistanceDict.items():
                 if char == value:
-                    data.at[index, "Dominant - Handposition - Distance"] = key
+                    data.at[index,
+                        "Dominant - Handposition - Distance"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                     break
             if not(equal_to_nan(data.at[index, "Dominant - Handposition - "
