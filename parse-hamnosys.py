@@ -154,23 +154,14 @@ def main(args):
     data["Dominant - Handshape - Bending"] = 0
 
     for index, _ in data.iterrows():
-        # Search for symmetry operators that consists of 3 or 2 symbols,
+        # Search for symmetry operators that consists of from 3 to 1 symbol,
         # remove if found
-        for i in range(1, 7):
-            j = 3 if i < 3 else 2
+        for i in range(1, 10):
+            j = 3 if i < 3 else (2 if i < 7 else 1)
             char = Hamnosys_copy[index][0:j]
             if set(char) == set(SymmetryOperatorsDict[str(i)]):
-                data.at[index, "Symmetry operator"] = i
-                Hamnosys_copy[index] = Hamnosys_copy[index][j:]
-                continue
-
-        # Search for symmetry operators that consists of 1 symbol,
-        # remove if found
-        char = Hamnosys_copy[index][0]
-        for i in range(7, 10):
-            if char == SymmetryOperatorsDict[str(i)]:
                 data.at[index, "Symmetry operator"] = i % 9
-                Hamnosys_copy[index] = Hamnosys_copy[index][1:]
+                Hamnosys_copy[index] = Hamnosys_copy[index][j:]
                 continue
 
         # Remove bracket and vave shape (that describes the movement)
