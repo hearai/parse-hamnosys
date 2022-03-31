@@ -78,23 +78,7 @@ def get_args_parser():
                  "Dominant - Handposition - Palm orientation2",
                  "Dominant - Handposition - LR2",
                  "Dominant - Handposition - TB2",
-                 "Dominant - Handposition - Distance2",
-                 "NONDominant - Handshape - Baseform",
-                 "NONDominant - Handshape - Thumb position",
-                 "NONDominant - Handshape - Bending",
-                 "NONDominant - Handposition - Extended finger direction",
-                 "NONDominant - Handposition - Palm orientation",
-                 "NONDominant - Handposition - LR",
-                 "NONDominant - Handposition - TB",
-                 "NONDominant - Handposition - Distance",
-                 "NONDominant - Handshape - Baseform2",
-                 "NONDominant - Handshape - Thumb position2",
-                 "NONDominant - Handshape - Bending2",
-                 "NONDominant - Handposition - Extended finger direction2",
-                 "NONDominant - Handposition - Palm orientation2",
-                 "NONDominant - Handposition - LR2",
-                 "NONDominant - Handposition - TB2",
-                 "NONDominant - Handposition - Distance2"],
+                 "Dominant - Handposition - Distance2"],
         help="Output column names"
     )
     return parser
@@ -161,6 +145,8 @@ def main(args):
             char = Hamnosys_copy[index][0:j]
             if set(char) == set(SymmetryOperatorsDict[str(i)]):
                 data.at[index, "Symmetry operator"] = i % 9
+                if i % 9 == 0:
+                    data.at[index, "NonDom first"] = 1
                 Hamnosys_copy[index] = Hamnosys_copy[index][j:]
                 continue
 
@@ -171,7 +157,7 @@ def main(args):
                 if char == value:
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
 
-        # Dominan hand base for is expected here,
+        # Dominant hand base for is expected here,
         # so we iter trough all possible options
         char = Hamnosys_copy[index][0]
         for key, value in HandshapeBaseformsDict.items():
