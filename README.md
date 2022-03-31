@@ -121,9 +121,9 @@ Handshape - palm orientation class consists of 8 symbols (0 to 7). Following lis
 
 ###  Handposition - Left/Right
 Handposition - left/right class consists of 5 symbols (0 to 4). Following list represents class number to symbol mapping ([Handposition - Top/Bottom sign](#handposition---topbottom) is used only as a reference):
-0.   - left to the left
-1.   - left
-2.   - center
+0.   - center
+1.   - left to the left
+2.   - left
 3.   - right
 4.   - right to the right
 
@@ -169,13 +169,13 @@ Handposition - top/bottom class consists of 37 symbols (0 to 36). Following list
 
 ###  Handposition - Distance
 Handposition - top/bottom class consists of 37 symbols (0 to 36). Following list represents class number to symbol mapping:
+0. None
 1.  
 2.  
 3.  
-4.  None
-5.  
-6.  
-7.  
+4.  
+5.  
+6.  
 
 ## Read more
 * [Introduction to HamNoSys](https://www.hearai.pl/post/4-hamnosys/)
