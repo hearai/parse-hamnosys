@@ -532,14 +532,20 @@ def main(args):
                     data.at[index,
                             "NONDominant - Handshape - Baseform"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
+                    if not(equal_to_nan(data.at[index, "NONDominant - "
+                                                       "Handshape - "
+                                                       "Thumb position"])):
+                        data.at[index, "NONDominant - Handshape - Thumb position"] = -1
+                        continue
+                    if not(equal_to_nan(data.at[index, "NONDominant - "
+                                                       "Handshape - "
+                                                       "Bending"])):
+                        data.at[index, "NONDominant - Handshape - Bending"] = -1
+                        continue
+                    data.at[index, "NONDominant - Handshape - Thumb position"] = 0
+                    data.at[index, "NONDominant - Handshape - Bending"] = 0
             # Hashape base for doesn have to be found, see:
             # 
-            if not(equal_to_nan(data.at[index, "NONDominant - Handshape - "
-                                               "Thumb position"])):
-                data.at[index, "NONDominant - Handshape - Thumb position"] = -1
-                continue
-            data.at[index, "NONDominant - Handshape - Thumb position"] = 0
-            data.at[index, "NONDominant - Handshape - Bending"] = 0
             char = Hamnosys_copy[index][0]
             for key, value in HandshapeThumbPositionDict.items():
                 if char == value:
@@ -619,12 +625,6 @@ def main(args):
                     data.at[index, "NONDominant - Handposition - "
                                    "Extended finger direction"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            if equal_to_nan(data.at[index, "NONDominant - Handposition - "
-                                           "Extended finger direction"]):
-                data.at[index, "NONDominant - Handposition - "
-                               "Extended finger direction"] = -1
-                continue
-
             # Extended finger direction - If there are two in a row
             char = Hamnosys_copy[index][0]
             for key, value in HandpositionFingerDirectionDict.items():
