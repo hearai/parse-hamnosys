@@ -625,12 +625,6 @@ def main(args):
                     data.at[index, "NONDominant - Handposition - "
                                    "Extended finger direction"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            if equal_to_nan(data.at[index, "NONDominant - Handposition - "
-                                           "Extended finger direction"]):
-                data.at[index, "NONDominant - Handposition - "
-                               "Extended finger direction"] = -1
-                continue
-
             # Extended finger direction - If there are two in a row
             char = Hamnosys_copy[index][0]
             for key, value in HandpositionFingerDirectionDict.items():
