@@ -10,6 +10,8 @@ from hamnosys_dicts import HandLocationFronalPlaneTB, HandshapeBaseformsDict, \
 
 import pandas as pd
 import numpy as np
+import math
+import pdb
 
 
 def equal_to_nan(a):
@@ -35,6 +37,14 @@ def get_args_parser():
         metavar="dstfile",
         type=str,
         help="File to save to",
+    )
+    parser.add_argument(
+        "-ef",
+        "--err_file",
+        dest="errfilename",
+        metavar="errfile",
+        type=str,
+        help="File to save errors to",
     )
     parser.add_argument(
         "-l",
@@ -818,12 +828,30 @@ def main(args):
 
     # Save resultant file
     df = data[args.columnnamesout]
-    df.to_csv(args.dstfilename,
-              sep=" ",
-              header=True,
-              index=False,
-              na_rep='NaN')
+    df_success = df
+    df_errors = df
 
+    for index, row in df.iterrows():
+        error = 0
+        for i in range(1, len(df.columns)):
+            if math.isclose(float(row[i]), float(-1.0), rel_tol=1e-5):
+                error = 1
+                df_success = df_success.drop(index)
+                break
+        if not(error):
+            df_errors = df_errors.drop(index)
+
+    df_success.to_csv(args.dstfilename,
+                      sep=" ",
+                      header=True,
+                      index=False,
+                      na_rep='NaN')
+
+    df_errors.to_csv(args.errfilename,
+                     sep=" ",
+                     header=True,
+                     index=False,
+                     na_rep='NaN')
 
 if __name__ == "__main__":
     parser = get_args_parser()
