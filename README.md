@@ -3,12 +3,12 @@ Sign language HamNoSys notation parsing tool.
 
 ## Usage
 ```
-$ python parse-hamnosys.py -sf <source_file> -df <destination_file>
+$ python parse-hamnosys.py -sf <source_file> -df <destination_file> -ef <error_file>
 ```
 
 ## Usage example
 ```
-$ python parse-hamnosys.py -sf hamnosys_example.txt -df hamnosys_parsed.txt
+$ python parse-hamnosys.py -sf hamnosys_example.txt -df hamnosys_parsed.txt -ef error.txt
 ```
 
 ## Source file format
@@ -22,19 +22,35 @@ Input file columns and description:
 * Hamnosys - Notation 
 
 ## Destination File format
-Destination file consists of following columns separated by the space " " sign:
+Default estination file consists of following columns separated by the space " " sign:
 * Name - name of a video file that given notation refers to, directly copied from source file
 * Start - sign start time (on a video), directly copied from source file
 * End - sign end time (on a vide), directly copied from source file
 * Symmetry operator - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
+* NonDom first - Used when notation starts with  sign
 * Dominant - Handshape - Baseform - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Dominant - Handshape - Thumb position - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Dominant - Handshape - bending - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Dominant - Handposition - extended finger direction - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Dominant - Handposition - palm orientation - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
-* Dominant - Handposition - LR - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
-* Dominant - Handposition - TB - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
-* Dominant - Handposition - Distance - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
+* Dominant - Handshape - Baseform2
+* Dominant - Handshape - Thumb position2
+* Dominant - Handshape - Bending2
+* Dominant - Handposition - Extended finger direction2
+* Dominant - Handposition - Palm orientation2
+* NONDominant - Handshape - Baseform
+* NONDominant - Handshape - Thumb position
+* NONDominant - Handshape - Bending
+* NONDominant - Handposition - Extended finger direction
+* NONDominant - Handposition - Palm orientation
+* NONDominant - Handshape - Baseform2
+* NONDominant - Handshape - Thumb position2
+* NONDominant - Handshape - Bending2
+* NONDominant - Handposition - Extended finger direction2
+* NONDominant - Handposition - Palm orientation2
+* Handposition - LR - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
+* Handposition - TB - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
+* Handposition - Distance - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 
 ## hamnosys_example.txt
 File created using [Korpusowy słownik polskiego języka migowego](https://www.slownikpjm.uw.edu.pl/)
