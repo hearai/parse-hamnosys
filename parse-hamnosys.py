@@ -11,7 +11,6 @@ from hamnosys_dicts import HandLocationFronalPlaneTB, HandshapeBaseformsDict, \
 import pandas as pd
 import numpy as np
 import math
-import pdb
 
 
 def equal_to_nan(a):
@@ -533,7 +532,7 @@ def main(args):
                     data.at[index,
                             "NONDominant - Handshape - Baseform"] = int(key)
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
-            #Hashape base for doesn have to be found, see:
+            # Hashape base for doesn have to be found, see:
             # 
             if not(equal_to_nan(data.at[index, "NONDominant - Handshape - "
                                                "Thumb position"])):
@@ -604,7 +603,7 @@ def main(args):
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
             char = Hamnosys_copy[index][0]
             for key, value in UnknownSymbols2Dict.items():
-                if char==value:
+                if char == value:
                     Hamnosys_copy[index] = Hamnosys_copy[index][1:]
                     char = Hamnosys_copy[index][0]
                 if int(key) > 5:
@@ -825,6 +824,13 @@ def main(args):
                 break
             if val_assigned == 1:
                 break
+
+    # Change NaN's to default values in for Handposition
+    for index, _ in data.iterrows():
+        if equal_to_nan(data.at[index, "Handposition - LR"]):
+            data.at[index, "Handposition - LR"] = 0
+        if equal_to_nan(data.at[index, "Handposition - TB"]):
+            data.at[index, "Handposition - TB"] = 14
 
     # Save resultant file
     df = data[args.columnnamesout]
