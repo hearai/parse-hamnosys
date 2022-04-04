@@ -30,7 +30,7 @@ jobs:
       - name: Comparison
         run: |
           source .venv/bin/activate
-          python3 parse-hamnosys.py -sf test/test_source.txt -df test/hamnosys_parsed.txt
+          python3 parse-hamnosys.py -sf test/test_source.txt -df test/hamnosys_parsed.txt -ef test/error.txt
           echo "Compare test and result files"
           python3 test/test_result_files.py -tf test/test_result.txt -rf test/hamnosys_parsed.txt
 

@@ -1,175 +1,325 @@
-Name Start End "Symmetry operator" "Dominant - Handshape - Baseform" "Dominant - Handshape - Thumb position" "Dominant - Handshape - Bending" "Dominant - Handposition - Extended finger direction" "Dominant - Handposition - Palm orientation" "Dominant - Handposition - LR" "Dominant - Handposition - TB" "Dominant - Handposition - Distance" "Dominant - Handshape - Baseform2" "Dominant - Handshape - Thumb position2" "Dominant - Handshape - Bending2" "Dominant - Handposition - Extended finger direction2" "Dominant - Handposition - Palm orientation2" "Dominant - Handposition - LR2" "Dominant - Handposition - TB2" "Dominant - Handposition - Distance2" "NONDominant - Handshape - Baseform" "NONDominant - Handshape - Thumb position" "NONDominant - Handshape - Bending" "NONDominant - Handposition - Extended finger direction" "NONDominant - Handposition - Palm orientation" "NONDominant - Handposition - LR" "NONDominant - Handposition - TB" "NONDominant - Handposition - Distance" "NONDominant - Handshape - Baseform2" "NONDominant - Handshape - Thumb position2" "NONDominant - Handshape - Bending2" "NONDominant - Handposition - Extended finger direction2" "NONDominant - Handposition - Palm orientation2" "NONDominant - Handposition - LR2" "NONDominant - Handposition - TB2" "NONDominant - Handposition - Distance2"
-SymClass1 0 1 1 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass1 0 1 2 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass2 0 1 2 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass2 0 1 6 -1.0 0 2 -1.0 -1.0 0.0 21.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass3 0 1 3 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass4 0 1 4 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass5 0 1 5 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass6 0 1 6 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass7 0 1 7 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass8 0 1 8 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass8 0 1 8 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass8 0 1 8 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass0 0 1 0 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-SymClass0 0 1 0 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-1 0 1 0 1.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-2 0 1 0 2.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-3 0 1 0 3.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-4 0 1 0 4.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-5 0 1 0 5.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-6 0 1 0 6.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-7 0 1 0 7.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-8 0 1 0 8.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-9 0 1 0 9.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-10 0 1 0 10.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-11 0 1 0 11.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-11 0 1 0 11.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF1-11 0 1 0 11.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-1 0 1 0 0.0 1 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-2 0 1 0 0.0 2 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-3 0 1 0 0.0 3 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-0 0 1 0 5.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-1 0 1 0 5.0 0 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-2 0 1 0 5.0 0 2 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-3 0 1 0 5.0 0 3 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-4 0 1 0 5.0 0 4 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend1-5 0 1 0 5.0 0 5 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-0 0 1 0 5.0 0 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-2 0 1 0 5.0 2 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-3 0 1 0 5.0 3 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-0 0 1 0 0.0 0 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-1 0 1 0 0.0 1 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-2 0 1 0 0.0 2 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb1-3 0 1 0 0.0 3 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DupBend1 0 1 0 5.0 0 5 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DupBend1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-0 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 1.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-2 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 2.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-3 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 3.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-4 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 4.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-5 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-6 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 6.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-7 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 7.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-8 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 8.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-9 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 9.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-10 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 10.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomHanBF2-11 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 11.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-0 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 1.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-2 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 2.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-3 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 3.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-0 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-2 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-3 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-4 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomBend2-5 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-0 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-2 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-3 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 5.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-0 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-1 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-2 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomThumb2-3 0 1 0 5.0 1 1 0.0 6.0 0.0 21.0 3.0 0.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF2-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-1 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-2 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 2.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-3 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 3.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-4 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 4.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-5 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-6 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 6.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-7 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 7.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-8 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 8.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-9 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 9.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-10 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 10.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF1-11 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 11.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-1 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 1.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-2 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-3 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 3.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-1 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-2 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-3 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-4 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomBend1-5 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-1 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-2 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-3 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-1 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-2 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomThumb1-3 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomHanBF2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-1 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 1.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-2 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 2.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-3 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 3.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-4 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 4.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-5 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-6 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 6.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-7 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 7.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-8 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 8.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-9 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 9.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-10 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 10.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomHanBF2-11 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 11.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomThumb2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomThumb2-1 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 1.0 0.0 NaN NaN NaN NaN NaN
-NDomThumb2-2 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 2.0 0.0 NaN NaN NaN NaN NaN
-NDomThumb2-3 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 3.0 0.0 NaN NaN NaN NaN NaN
-NDomBend2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN
-NDomBend2-1 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 1.0 NaN NaN NaN NaN NaN
-NDomBend2-2 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 2.0 NaN NaN NaN NaN NaN
-NDomBend2-3 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 3.0 NaN NaN NaN NaN NaN
-NDomBend2-4 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 4.0 NaN NaN NaN NaN NaN
-NDomBend2-5 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 5.0 NaN NaN NaN NaN NaN
-NDomThumb2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 0.0 2.0 NaN NaN NaN NaN NaN
-NDomThumb2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 1.0 2.0 NaN NaN NaN NaN NaN
-NDomThumb2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 2.0 2.0 NaN NaN NaN NaN NaN
-NDomThumb2-0 0 1 0 2.0 2 0 2.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN NaN NaN NaN 5.0 3.0 2.0 NaN NaN NaN NaN NaN
-DomEFD12-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-1 0 1 0 0.0 0 0 1.0 6.0 0.0 21.0 3.0 NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-2 0 1 0 0.0 0 0 2.0 6.0 0.0 21.0 3.0 NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-3 0 1 0 0.0 0 0 3.0 6.0 0.0 21.0 3.0 NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-4 0 1 0 0.0 0 0 4.0 6.0 0.0 21.0 3.0 NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-5 0 1 0 0.0 0 0 5.0 6.0 0.0 21.0 3.0 NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-6 0 1 0 0.0 0 0 6.0 6.0 0.0 21.0 3.0 NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-7 0 1 0 0.0 0 0 7.0 6.0 0.0 21.0 3.0 NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-1 0 1 0 0.0 0 0 1.0 6.0 0.0 21.0 3.0 NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-2 0 1 0 0.0 0 0 2.0 6.0 0.0 21.0 3.0 NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-3 0 1 0 0.0 0 0 3.0 6.0 0.0 21.0 3.0 NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-4 0 1 0 0.0 0 0 4.0 6.0 0.0 21.0 3.0 NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-5 0 1 0 0.0 0 0 5.0 6.0 0.0 21.0 3.0 NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-6 0 1 0 0.0 0 0 6.0 6.0 0.0 21.0 3.0 NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomEFD12-7 0 1 0 0.0 0 0 7.0 6.0 0.0 21.0 3.0 NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-NDomEFD12-0 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 NaN NaN NaN NaN
-NDomEFD12-1 0 1 0 0.0 0 0 1.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN 1.0 NaN NaN NaN NaN
-NDomEFD12-2 0 1 0 0.0 0 0 2.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN 2.0 NaN NaN NaN NaN
-NDomEFD12-3 0 1 0 0.0 0 0 3.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN 3.0 NaN NaN NaN NaN
-NDomEFD12-4 0 1 0 0.0 0 0 4.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN 4.0 NaN NaN NaN NaN
-NDomEFD12-5 0 1 0 0.0 0 0 5.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN 5.0 NaN NaN NaN NaN
-NDomEFD12-6 0 1 0 0.0 0 0 6.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN 6.0 NaN NaN NaN NaN
-NDomEFD12-7 0 1 0 0.0 0 0 7.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN 7.0 NaN NaN NaN NaN
-DomPO1-0 0 1 0 0.0 0 0 0.0 0.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-1 0 1 0 0.0 0 0 0.0 1.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-2 0 1 0 0.0 0 0 0.0 2.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-3 0 1 0 0.0 0 0 0.0 3.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-4 0 1 0 0.0 0 0 0.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-5 0 1 0 0.0 0 0 0.0 5.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-6 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-7 0 1 0 0.0 0 0 0.0 7.0 0.0 21.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-0 0 1 0 0.0 0 0 0.0 0.0 0.0 21.0 3.0 NaN NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-1 0 1 0 0.0 0 0 0.0 1.0 0.0 21.0 3.0 NaN NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-2 0 1 0 0.0 0 0 0.0 2.0 0.0 21.0 3.0 NaN NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-3 0 1 0 0.0 0 0 0.0 3.0 0.0 21.0 3.0 NaN NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-4 0 1 0 0.0 0 0 0.0 4.0 0.0 21.0 3.0 NaN NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-5 0 1 0 0.0 0 0 0.0 5.0 0.0 21.0 3.0 NaN NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-6 0 1 0 0.0 0 0 0.0 6.0 0.0 21.0 3.0 NaN NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
-DomPO1-7 0 1 0 0.0 0 0 0.0 7.0 0.0 21.0 3.0 NaN NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Name Start End "Symmetry operator" "NonDom first" "Dominant - Handshape - Baseform" "Dominant - Handshape - Thumb position" "Dominant - Handshape - Bending" "Dominant - Handposition - Extended finger direction" "Dominant - Handposition - Palm orientation" "Dominant - Handshape - Baseform2" "Dominant - Handshape - Thumb position2" "Dominant - Handshape - Bending2" "Dominant - Handposition - Extended finger direction2" "Dominant - Handposition - Palm orientation2" "NONDominant - Handshape - Baseform" "NONDominant - Handshape - Thumb position" "NONDominant - Handshape - Bending" "NONDominant - Handposition - Extended finger direction" "NONDominant - Handposition - Palm orientation" "NONDominant - Handshape - Baseform2" "NONDominant - Handshape - Thumb position2" "NONDominant - Handshape - Bending2" "NONDominant - Handposition - Extended finger direction2" "NONDominant - Handposition - Palm orientation2" "Handposition - LR" "Handposition - TB" "Handposition - Distance"
+NonDomFirst 0 1 0 1 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass1 0 1 1 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass1 0 1 1 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass2 0 1 2 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass2 0 1 2 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass3 0 1 3 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass4 0 1 4 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass5 0 1 5 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass6 0 1 6 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass7 0 1 7 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass8 0 1 8 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass8 0 1 8 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass8 0 1 8 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+SymClass0 0 1 0 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-1 0 1 0 0 1.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-2 0 1 0 0 2.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-3 0 1 0 0 3.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-4 0 1 0 0 4.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-5 0 1 0 0 5.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-6 0 1 0 0 6.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-7 0 1 0 0 7.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-8 0 1 0 0 8.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-9 0 1 0 0 9.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-10 0 1 0 0 10.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-11 0 1 0 0 11.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-11 0 1 0 0 11.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-11 0 1 0 0 11.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF1-11 0 1 0 1 11.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-1 0 1 0 0 0.0 1 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-2 0 1 0 0 0.0 2 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-3 0 1 0 0 0.0 3 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-0 0 1 0 0 5.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-1 0 1 0 0 5.0 0 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-2 0 1 0 0 5.0 0 2 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-3 0 1 0 0 5.0 0 3 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-4 0 1 0 0 5.0 0 4 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend1-5 0 1 0 0 5.0 0 5 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-0 0 1 0 0 5.0 0 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-1 0 1 0 0 5.0 1 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-2 0 1 0 0 5.0 2 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-3 0 1 0 0 5.0 3 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-0 0 1 0 0 0.0 0 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-1 0 1 0 0 0.0 1 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-2 0 1 0 0 0.0 2 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb1-3 0 1 0 0 0.0 3 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DupBend5 0 1 0 0 5.0 0 5 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DupBend1 0 1 0 0 5.0 1 1 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-0 0 1 0 0 5.0 1 1 0.0 6.0 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-1 0 1 0 0 5.0 1 1 0.0 6.0 1.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-2 0 1 0 0 5.0 1 1 0.0 6.0 2.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-3 0 1 0 0 5.0 1 1 0.0 6.0 3.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-4 0 1 0 0 5.0 1 1 0.0 6.0 4.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-5 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-6 0 1 0 0 5.0 1 1 0.0 6.0 6.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-7 0 1 0 0 5.0 1 1 0.0 6.0 7.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-8 0 1 0 0 5.0 1 1 0.0 6.0 8.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-9 0 1 0 0 5.0 1 1 0.0 6.0 9.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-10 0 1 0 0 5.0 1 1 0.0 6.0 10.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomHanBF2-11 0 1 0 0 5.0 1 1 0.0 6.0 11.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-0 0 1 0 0 5.0 1 1 0.0 6.0 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-1 0 1 0 0 5.0 1 1 0.0 6.0 0.0 1.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-2 0 1 0 0 5.0 1 1 0.0 6.0 0.0 2.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-3 0 1 0 0 5.0 1 1 0.0 6.0 0.0 3.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-0 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-1 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-2 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-3 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-4 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomBend2-5 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-0 0 1 0 0 5.0 1 1 0.0 6.0 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-1 0 1 0 0 5.0 1 1 0.0 6.0 5.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-2 0 1 0 0 5.0 1 1 0.0 6.0 5.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-3 0 1 0 0 5.0 1 1 0.0 6.0 5.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-0 0 1 0 0 5.0 1 1 0.0 6.0 0.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-1 0 1 0 0 5.0 1 1 0.0 6.0 0.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-2 0 1 0 0 5.0 1 1 0.0 6.0 0.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomThumb2-3 0 1 0 0 5.0 1 1 0.0 6.0 0.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 1.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 2.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 3.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 4.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 6.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 7.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-8 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 8.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-9 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 9.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-10 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 10.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-11 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 11.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 1.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 2.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 3.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 2.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 3.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 4.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 5.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 1.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 2.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 3.0 1.0 NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 0.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-1 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 1.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-2 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 2.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-3 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 3.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-4 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 4.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-5 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-6 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 6.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-7 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 7.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-8 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 8.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-9 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 9.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-10 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 10.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-11 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 11.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 0.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-1 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 0.0 1.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-2 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 0.0 2.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-3 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 0.0 3.0 0.0 NaN NaN 0.0 21.0 0
+NDomBend2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomBend2-1 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 1.0 NaN NaN 0.0 21.0 0
+NDomBend2-2 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 2.0 NaN NaN 0.0 21.0 0
+NDomBend2-3 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 3.0 NaN NaN 0.0 21.0 0
+NDomBend2-4 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 4.0 NaN NaN 0.0 21.0 0
+NDomBend2-5 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 5.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 0.0 2.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 1.0 2.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 2.0 2.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 2.0 2 0 2.0 4.0 NaN NaN NaN NaN NaN 1.0 0.0 2.0 NaN NaN 5.0 3.0 2.0 NaN NaN 0.0 21.0 0
+DomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-1 0 1 0 0 0.0 0 0 1.0 6.0 NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-2 0 1 0 0 0.0 0 0 2.0 6.0 NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-3 0 1 0 0 0.0 0 0 3.0 6.0 NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-4 0 1 0 0 0.0 0 0 4.0 6.0 NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-5 0 1 0 0 0.0 0 0 5.0 6.0 NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-6 0 1 0 0 0.0 0 0 6.0 6.0 NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-7 0 1 0 0 0.0 0 0 7.0 6.0 NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-1 0 1 0 0 0.0 0 0 1.0 6.0 NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-2 0 1 0 0 0.0 0 0 2.0 6.0 NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-3 0 1 0 0 0.0 0 0 3.0 6.0 NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-4 0 1 0 0 0.0 0 0 4.0 6.0 NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-5 0 1 0 0 0.0 0 0 5.0 6.0 NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-6 0 1 0 0 0.0 0 0 6.0 6.0 NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomEFD12-7 0 1 0 0 0.0 0 0 7.0 6.0 NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 NaN NaN NaN NaN 0.0 NaN 0.0 21.0 0
+NDomEFD12-1 0 1 0 0 0.0 0 0 1.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 NaN NaN NaN NaN 1.0 NaN 0.0 21.0 0
+NDomEFD12-2 0 1 0 0 0.0 0 0 2.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 2.0 NaN NaN NaN NaN 2.0 NaN 0.0 21.0 0
+NDomEFD12-3 0 1 0 0 0.0 0 0 3.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 3.0 NaN NaN NaN NaN 3.0 NaN 0.0 21.0 0
+NDomEFD12-4 0 1 0 0 0.0 0 0 4.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 4.0 NaN NaN NaN NaN 4.0 NaN 0.0 21.0 0
+NDomEFD12-5 0 1 0 0 0.0 0 0 5.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 NaN NaN NaN NaN 5.0 NaN 0.0 21.0 0
+NDomEFD12-6 0 1 0 0 0.0 0 0 6.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 6.0 NaN NaN NaN NaN 6.0 NaN 0.0 21.0 0
+NDomEFD12-7 0 1 0 0 0.0 0 0 7.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 7.0 NaN NaN NaN NaN 7.0 NaN 0.0 21.0 0
+NDomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 0.0 NaN NaN NaN NaN 0.0 NaN 0.0 21.0 0
+NDomEFD12-1 0 1 0 0 0.0 0 0 1.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 1.0 NaN NaN NaN NaN 1.0 NaN 0.0 21.0 0
+NDomEFD12-2 0 1 0 0 0.0 0 0 2.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 2.0 NaN NaN NaN NaN 2.0 NaN 0.0 21.0 0
+NDomEFD12-3 0 1 0 0 0.0 0 0 3.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 3.0 NaN NaN NaN NaN 3.0 NaN 0.0 21.0 0
+NDomEFD12-4 0 1 0 0 0.0 0 0 4.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 4.0 NaN NaN NaN NaN 4.0 NaN 0.0 21.0 0
+NDomEFD12-5 0 1 0 0 0.0 0 0 5.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 5.0 NaN NaN NaN NaN 5.0 NaN 0.0 21.0 0
+NDomEFD12-6 0 1 0 0 0.0 0 0 6.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 6.0 NaN NaN NaN NaN 6.0 NaN 0.0 21.0 0
+NDomEFD12-7 0 1 0 0 0.0 0 0 7.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN 7.0 NaN NaN NaN NaN 7.0 NaN 0.0 21.0 0
+DomPO1-0 0 1 0 0 0.0 0 0 0.0 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-1 0 1 0 0 0.0 0 0 0.0 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-2 0 1 0 0 0.0 0 0 0.0 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-3 0 1 0 0 0.0 0 0 0.0 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-4 0 1 0 0 0.0 0 0 0.0 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-5 0 1 0 0 0.0 0 0 0.0 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO1-7 0 1 0 0 0.0 0 0 0.0 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-0 0 1 0 0 0.0 0 0 0.0 0.0 NaN NaN NaN NaN 0.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-1 0 1 0 0 0.0 0 0 0.0 1.0 NaN NaN NaN NaN 1.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-2 0 1 0 0 0.0 0 0 0.0 2.0 NaN NaN NaN NaN 2.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-3 0 1 0 0 0.0 0 0 0.0 3.0 NaN NaN NaN NaN 3.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-4 0 1 0 0 0.0 0 0 0.0 4.0 NaN NaN NaN NaN 4.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-5 0 1 0 0 0.0 0 0 0.0 5.0 NaN NaN NaN NaN 5.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+DomPO12-7 0 1 0 0 0.0 0 0 0.0 7.0 NaN NaN NaN NaN 7.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 1.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 2.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 3.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 4.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 6.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 7.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-8 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 8.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-9 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 9.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-10 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 10.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-11 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 11.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF1-11 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 11.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 1.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 2.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 3.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 2.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 3.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 4.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomBend1-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 5.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 1.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 2.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 3.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 1.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 2.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomThumb1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 3.0 1.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomHanBF2-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 1.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 2.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 3.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 4.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 6.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 7.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-8 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 8.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-9 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 9.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-10 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 10.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomHanBF2-11 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 11.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 1.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 2.0 0.0 NaN NaN 0.0 21.0 0
+NDomThumb2-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 3.0 0.0 NaN NaN 0.0 21.0 0
+NDomBend2-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 0.0 NaN NaN 0.0 21.0 0
+NDomBend2-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 1.0 NaN NaN 0.0 21.0 0
+NDomBend2-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 2.0 NaN NaN 0.0 21.0 0
+NDomBend2-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 3.0 NaN NaN 0.0 21.0 0
+NDomBend2-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 4.0 NaN NaN 0.0 21.0 0
+NDomBend2-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 5.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 0.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 1.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 2.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 5.0 3.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 0.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 1.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 2.0 1.0 NaN NaN 0.0 21.0 0
+NDomThumb2-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 5.0 0.0 0.0 0.0 6.0 0.0 3.0 1.0 NaN NaN 0.0 21.0 0
+NDomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN 0.0 NaN 0.0 21.0 0
+NDomEFD12-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 1.0 6.0 NaN NaN NaN 1.0 NaN 0.0 21.0 0
+NDomEFD12-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 2.0 6.0 NaN NaN NaN 2.0 NaN 0.0 21.0 0
+NDomEFD12-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 3.0 6.0 NaN NaN NaN 3.0 NaN 0.0 21.0 0
+NDomEFD12-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 4.0 6.0 NaN NaN NaN 4.0 NaN 0.0 21.0 0
+NDomEFD12-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 5.0 6.0 NaN NaN NaN 5.0 NaN 0.0 21.0 0
+NDomEFD12-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 6.0 6.0 NaN NaN NaN 6.0 NaN 0.0 21.0 0
+NDomEFD12-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 7.0 6.0 NaN NaN NaN 7.0 NaN 0.0 21.0 0
+NDomEFD12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN 0.0 NaN 0.0 21.0 0
+NDomEFD12-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 1.0 6.0 NaN NaN NaN 1.0 NaN 0.0 21.0 0
+NDomEFD12-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 2.0 6.0 NaN NaN NaN 2.0 NaN 0.0 21.0 0
+NDomEFD12-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 3.0 6.0 NaN NaN NaN 3.0 NaN 0.0 21.0 0
+NDomEFD12-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 4.0 6.0 NaN NaN NaN 4.0 NaN 0.0 21.0 0
+NDomEFD12-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 5.0 6.0 NaN NaN NaN 5.0 NaN 0.0 21.0 0
+NDomEFD12-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 6.0 6.0 NaN NaN NaN 6.0 NaN 0.0 21.0 0
+NDomEFD12-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 7.0 6.0 NaN NaN NaN 7.0 NaN 0.0 21.0 0
+NDomPO1-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 0.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 1.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 2.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 3.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 4.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 5.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO1-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 7.0 NaN NaN NaN NaN NaN 0.0 21.0 0
+NDomPO12-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 0.0 NaN NaN NaN NaN 0.0 0.0 21.0 0
+NDomPO12-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 1.0 NaN NaN NaN NaN 1.0 0.0 21.0 0
+NDomPO12-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 2.0 NaN NaN NaN NaN 2.0 0.0 21.0 0
+NDomPO12-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 3.0 NaN NaN NaN NaN 3.0 0.0 21.0 0
+NDomPO12-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 4.0 NaN NaN NaN NaN 4.0 0.0 21.0 0
+NDomPO12-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 5.0 NaN NaN NaN NaN 5.0 0.0 21.0 0
+NDomPO12-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 6.0 NaN NaN NaN NaN 6.0 0.0 21.0 0
+NDomPO12-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN 0.0 0.0 0.0 0.0 7.0 NaN NaN NaN NaN 7.0 0.0 21.0 0
+FrontTB-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 1.0 0
+FrontTB-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 0
+FrontTB-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 3.0 0
+FrontTB-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 4.0 0
+FrontTB-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 5.0 0
+FrontTB-6 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 6.0 0
+FrontTB-7 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 7.0 0
+FrontTB-8 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 8.0 0
+FrontTB-9 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 9.0 0
+FrontTB-10 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 10.0 0
+FrontTB-11 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 11.0 0
+FrontTB-12 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 12.0 0
+FrontTB-13 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 13.0 0
+FrontTB-14 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 14.0 0
+FrontTB-15 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 15.0 0
+FrontTB-16 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 16.0 0
+FrontTB-17 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 17.0 0
+FrontTB-18 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 18.0 0
+FrontTB-19 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 19.0 0
+FrontTB-20 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 20.0 0
+FrontTB-21 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 21.0 0
+FrontTB-22 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 22.0 0
+FrontTB-23 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 23.0 0
+FrontTB-24 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 24.0 0
+FrontTB-25 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 25.0 0
+FrontTB-26 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 26.0 0
+FrontTB-27 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 27.0 0
+FrontTB-28 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 28.0 0
+FrontTB-29 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 29.0 0
+FrontTB-30 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 30.0 0
+FrontTB-31 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 31.0 0
+FrontTB-32 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 32.0 0
+FrontTB-33 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 33.0 0
+FrontTB-34 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 34.0 0
+FrontTB-35 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 35.0 0
+FrontTB-26 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 36.0 0
+FrontLR-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 0
+FrontLR-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 1.0 2.0 0
+FrontLR-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 2.0 2.0 0
+FrontLR-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 4.0 2.0 0
+FrontLR-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 3.0 2.0 0
+Distance-1 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 1
+Distance-2 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 2
+Distance-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 0
+Distance-0 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 0
+Distance-3 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 3
+Distance-4 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 4
+Distance-5 0 1 0 0 0.0 0 0 0.0 6.0 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 0.0 2.0 5
