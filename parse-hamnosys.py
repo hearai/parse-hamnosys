@@ -149,7 +149,6 @@ def main(args):
     data["Handposition - Distance"] = 0
 
     for index, _ in data.iterrows():
-        print(index)
         # Search for symmetry operators that consists of from 3 to 1 symbol,
         # remove if found
         for i in range(1, 10):
