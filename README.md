@@ -1,4 +1,10 @@
-# parse-hamnosys
+![CI workflow badge](https://github.com/hearai/parse-hamnosys/workflows/CI-pipeline/badge.svg) ![Visits Badge](https://badges.pufler.dev/visits/hearai/parse-hamnosys)
+
+<p align="center">
+<a href="https://www.hearai.pl"><img src="https://i.imgur.com/wKCpSOh.png" height="auto" width="200"></a>
+</p>
+
+# HamNoSys Parser
 
 ![parser schema](./imgs/schemat.JPG)
 
@@ -105,6 +111,22 @@ Default estination file consists of following columns separated by the space " "
 * Handposition - LR - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Handposition - TB - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
 * Handposition - Distance - Number that represents one of the classes (please refer to hamnosys_dicts.txt), parsed from notation
+
+## Citation
+
+If you find this code useful in your research, please consider [citing](https://arxiv.org/abs/2204.06924):
+
+```
+@misc{majchrowska2022hamnosys,
+  doi = {10.48550/ARXIV.2204.06924},
+  url = {https://arxiv.org/abs/2204.06924},
+  author = {Majchrowska, Sylwia and Plantykow, Marta and Olech, Milena},
+  title = {Open Source HamNoSys Parser for Multilingual Sign Language Encoding},
+  publisher = {arXiv},
+  year = {2022}, 
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 ## Acknowledgement
 
