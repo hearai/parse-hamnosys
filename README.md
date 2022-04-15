@@ -80,7 +80,7 @@ Input file columns and description:
 * Word - translation to a spoken language
 * Hamnosys - Notation 
 
-### Destination File format
+### Destination file format
 
 Default estination file consists of following columns separated by the space " " sign:
 * Name - name of a video file that given notation refers to, directly copied from source file
