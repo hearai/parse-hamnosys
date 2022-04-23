@@ -15,6 +15,23 @@ for the defined classes.
 The parser analyzes a series of symbols and matches each symbol with the class
 that describes it (while assigning it the appropriate number) or removes it.
 
+## Installation
+
+1. Create a virtual environment with `python -m venv pyhup` or using `conda`.
+2. Activate it with `. gnlse/bin/activate`.
+3. Clone this repository `git clone https://github.com/hearai/parse-hamnosys.git`
+4. Install the requirements in this directory `pip install -r requirements.txt`.
+5. Install gnlse package `pip install .` (or `pip install -v -e .` for develop mode) or set `PYTHONPATH` enviroment variable
+
+```bash
+python -m venv pyhup
+. gnlse/bin/activate
+git clone https://github.com/hearai/parse-hamnosys.git
+cd parse-hamnosys
+pip install -r requirements.txt
+pip install .
+```
+
 ## Hamburg Sign Language Notation System
 
 The Hamburg Sign Language Notation System (HamNoSys) is a _phonetic_ 
