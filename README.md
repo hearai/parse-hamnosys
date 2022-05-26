@@ -1,4 +1,6 @@
-![CI workflow badge](https://github.com/hearai/parse-hamnosys/workflows/CI-pipeline/badge.svg) ![Visits Badge](https://badges.pufler.dev/visits/hearai/parse-hamnosys)
+![CI workflow badge](https://github.com/hearai/parse-hamnosys/workflows/CI-pipeline/badge.svg) 
+[![DOI](https://zenodo.org/badge/468432798.svg)](https://zenodo.org/badge/latestdoi/468432798) 
+![Visits Badge](https://badges.pufler.dev/visits/hearai/parse-hamnosys)
 
 <p align="center">
 <a href="https://www.hearai.pl"><img src="https://i.imgur.com/wKCpSOh.png" height="auto" width="200"></a>
