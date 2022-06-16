@@ -123,12 +123,14 @@ If you find this code useful in your research, please consider [citing](https://
   doi = {10.48550/ARXIV.2204.06924},
   url = {https://arxiv.org/abs/2204.06924},
   author = {Majchrowska, Sylwia and Plantykow, Marta and Olech, Milena},
-  title = {Open Source HamNoSys Parser for Multilingual Sign Language Encoding},
+  title = {Handling sign language transcription system with the computer-friendly numerical multilabels},
   publisher = {arXiv},
-  year = {2022}, 
+  year = {2022},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
+
+The result of the work was presented at [Communication in Human-AI Interaction Workshop @ IJCAI 2022](https://chai-workshop.github.io/).
 
 ## Acknowledgement
 
